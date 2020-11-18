@@ -63,7 +63,7 @@ export default class Canvas extends EventEmitter {
    */
   updateImage() {
     console.log(555);
-    const imageUrl = '../images/image.jpg';
+    const imageUrl = '/canvas_image/images/image.jpg';
     this.imageIndex = 0;
     this.drawImage = new Image();
     this.drawImage.src = imageUrl;

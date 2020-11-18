@@ -60,7 +60,7 @@ module.exports = {
     modules: ['node_modules', path.resolve(__dirname)],
   },
   plugins: [
-    new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin(),
     // JS内の'process.env.NODE_ENV'が'development'か'production'に置き換わる
     new webpack.EnvironmentPlugin({ NODE_ENV: 'development' }),
     // 共通プラグインを利用するときはこれを書いておけばインポート不要
